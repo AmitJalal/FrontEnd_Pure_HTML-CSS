@@ -17,5 +17,9 @@ https://cards-amit09.netlify.app/
 
 https://riddle-page-amit.netlify.app/
 
+### Price Card
+
+https://price-card-amit.netlify.app/
+
 
 
