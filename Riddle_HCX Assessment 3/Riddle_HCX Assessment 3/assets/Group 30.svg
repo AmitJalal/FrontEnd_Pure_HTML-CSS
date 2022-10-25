@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1254.558" height="831.926" viewBox="0 0 1254.558 831.926">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.614" y1="0.474" x2="-0.024" y2="0.479" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9712f0"/>
+      <stop offset="1" stop-color="#c966f5" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a050cf"/>
+      <stop offset="1" stop-color="#b54ebd"/>
+    </linearGradient>
+    <filter id="Rectangle_23" x="794.235" y="21.692" width="96.468" height="96.468" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.02"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_25" x="554.471" y="146.692" width="96.468" height="96.468" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.02"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_26" x="973.471" y="684.692" width="96.468" height="96.468" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-opacity="0.02"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_27" x="1121.531" y="599.076" width="59.698" height="59.698" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-4"/>
+      <feFlood flood-opacity="0.02"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_24" x="1136.381" y="51.071" width="118.177" height="118.177" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-5"/>
+      <feFlood flood-opacity="0.02"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_30" data-name="Group 30" transform="translate(-121.031 -0.574)">
+    <path id="Path_1" data-name="Path 1" d="M-617.626,2949.5l-183.109-356.3V2415.125l328.241-297.551h396.5l-610.887,402.348L160.61,2949.5Z" transform="translate(921.766 -2117)" fill="url(#linear-gradient)"/>
+    <g transform="matrix(1, 0, 0, 1, 121.03, 0.57)" filter="url(#Rectangle_23)">
+      <rect id="Rectangle_23-2" data-name="Rectangle 23" width="47" height="47" rx="4" transform="translate(842.47 100.16) rotate(-135)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 121.03, 0.57)" filter="url(#Rectangle_25)">
+      <rect id="Rectangle_25-2" data-name="Rectangle 25" width="47" height="47" rx="4" transform="translate(602.7 225.16) rotate(-135)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 121.03, 0.57)" filter="url(#Rectangle_26)">
+      <rect id="Rectangle_26-2" data-name="Rectangle 26" width="47" height="47" rx="4" transform="translate(1021.7 763.16) rotate(-135)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 121.03, 0.57)" filter="url(#Rectangle_27)">
+      <rect id="Rectangle_27-2" data-name="Rectangle 27" width="21" height="21" rx="4" transform="translate(1151.38 640.77) rotate(-135)" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 121.03, 0.57)" filter="url(#Rectangle_24)">
+      <rect id="Rectangle_24-2" data-name="Rectangle 24" width="62.351" height="62.351" rx="4" transform="translate(1195.47 151.25) rotate(-135)" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>
