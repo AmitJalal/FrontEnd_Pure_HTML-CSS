@@ -1,0 +1,250 @@
+/* global css */
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h3 {
+  font: normal normal bold 18px/22px Montserrat;
+  letter-spacing: 0px;
+  color: rgba(70, 68, 81, 1);
+  opacity: 1;
+}
+
+p {
+  /* text-align: start; */
+  margin: 25px 0px;
+  font: normal normal 600 13px/21px Open Sans;
+  letter-spacing: 0px;
+  color: rgba(171, 171, 173, 1);
+  opacity: 1;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-card,
+.middle-card,
+.right-card {
+  width: 329px;
+}
+.left-card,
+.top-card,
+.down-card,
+.right-card {
+  height: 239px;
+  margin: 0;
+  padding: 20px;
+  background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  opacity: 1;
+}
+
+/* css */
+
+/* description css  */
+.description {
+  /* width: 100vw; */
+  height: auto;
+  padding: 25px;
+  text-align: center;
+}
+
+.description > h1 {
+  font: normal normal 33px/40px Montserrat;
+  letter-spacing: 0px;
+  opacity: 1;
+  margin-bottom: 10px;
+}
+
+.description > p {
+  text-align: center;
+  margin: 25px 0;
+}
+
+/* cards css */
+
+/* .cards {
+  width: calc(100vw -80px);
+  height: calc(70vh);
+  padding: 20px 25px 0 25px;
+  display: flex;
+  justify-content: center;
+} */
+
+.left-card {
+  /* margin: auto 0px; */
+  /* margin-right: 25px; */
+  border-top: 4px solid rgba(95, 213, 205, 1);
+}
+
+.top-card,
+.down-card {
+  margin: 20px;
+}
+
+.top-card {
+  border-top: 4px solid rgba(235, 104, 117, 1);
+  /* margin-bottom: 25px; */
+}
+
+.down-card {
+  border-top: 4px solid rgba(234, 195, 87, 1);
+}
+
+.right-card {
+  /* margin: auto 0px; */
+  border-top: 4px solid rgba(25, 159, 178, 1);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  /* margin: auto; */
+}
+
+.card > h3 {
+  width: 101px;
+  height: 22px;
+  text-align: start;
+}
+
+.cards img {
+  float: right;
+  /* text-align: end; */
+}
+
+@media screen and (max-width: 600px) {
+  .cards {
+    flex-wrap: wrap;
+  }
+  .top-card,
+  .down-card {
+    margin: 0px;
+  }
+  .left-card {
+    order: 1;
+  }
+  .left-card,
+  .middle-card,
+  .right-card {
+    margin: 10px;
+  }
+  .top-card {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 576px) {
+  .description {
+    height: auto;
+    padding: 25px 35px 0;
+    text-align: center;
+  }
+
+  .description > :nth-child(1) {
+    font-size: 30px;
+    width: 250px;
+    height: 74px;
+    text-align: center;
+    margin: auto;
+    line-height: 40px;
+  }
+
+  .heading-bold {
+    width: 200px;
+    height: 140px;
+    font-size: 33px;
+    text-align: center;
+    margin: auto;
+    margin-top: 35px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 360px){
+    
+  p{
+    margin: 10px 0px;
+  }
+
+  .left-card, .right-card, .top-card, .down-card {
+    width: 225px;
+    height: 175px;
+  }
+  .middle-card> .top-card, .middle-card>.down-card{
+    margin: auto;
+  }
+  .middle-card>div.top-card{
+    margin-bottom: 20px;
+  }
+
+}
+
+@media screen and (min-width: 200px) and (max-width: 300px){
+  .description>h1{
+    line-height: 25px;
+  }
+  p{
+    line-height: 15px;
+  }
+  div.description{
+    padding: 15px 8px 0px;
+  }
+  .description>h1{
+    font-size: large;
+  }
+  h1.heading-bold{
+    font-size: large;
+  }
+  p{
+    font-size: 10px;
+    margin: 15px 0px;
+  }
+  
+  .left-card, .right-card, .top-card, .down-card {
+    width: 200px;
+    height: 164px;
+  }
+  .middle-card> .top-card, .middle-card>.down-card{
+    margin: auto;
+  }
+  .middle-card>div.top-card{
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 185px) and (max-width: 225px){
+  .description>h1{
+    line-height: 25px;
+  }
+  p{
+    line-height: 15px;
+  }
+  div.description{
+    padding: 15px 8px 0px;
+  }
+  .description>h1{
+    font-size: large;
+  }
+  h1.heading-bold{
+    font-size: large;
+  }
+  p{
+    font-size: 10px;
+    margin: 5px 0px;
+  }
+  
+  .left-card, .right-card, .top-card, .down-card {
+    width: 169px;
+    height: 164px;
+  }
+
+}
