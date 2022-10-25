@@ -1,0 +1,166 @@
+
+:root {
+    --bg: #282c34;
+    --orange: #feb078;
+    --blue: #02befa;
+    --black: #0a2a3a;
+    --grey1: #adbdca;
+    --light-grey: #e1e6ea;
+    --grey2: #dee3e7;
+    --register: #674bb1;
+    --purple2: #B44DF2;
+  }
+  
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap");
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./assets/Group\ 30.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-color: hsl(257, 40%, 49%);
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 0 2rem;
+}
+
+.header img {
+  width: 170px;
+  padding-bottom: 20px;
+}
+.header > img:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+.hero-img:hover {
+  transform: translateX(-25px);
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+button {
+  width: 205px;
+  height: 57px;
+  color: var(--register);
+  font: normal normal 600 18px/32px Open Sans;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 29px;
+  border: none;
+}
+
+button:hover {
+  transform: translateY(-5px);
+  background-color: var(--purple2);
+  color: var(--grey2);
+  box-shadow: -1px 8px 105px 11px rgba(48, 43, 48, 0.74);
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: 9px 7px 28px 1px rgba(0, 0, 0, 0.75);
+  transform: translateY(4px);
+}
+
+.hero-text h1 {
+  color: #fff;
+  font: normal normal bold 42px/60px Montserrat;
+  letter-spacing: -2.1px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  color: var(--grey2);
+  font: normal normal normal 18px/32px Open Sans;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.social {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+div.icon {
+  display: flex;
+  width: 46px;
+  height: 46px;
+  margin: 0px 10px;
+  /* UI Properties */
+  border: 2px solid #ffffff;
+  border-radius: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+div.icon:hover {
+  transform: translateY(-5px);
+  background-color: var(--purple2);
+  color: var(--grey2);
+  box-shadow: -1px 8px 105px 11px rgba(253, 250, 253, 0.74);
+  cursor: pointer;
+  border: var(--purple2);
+}
+
+div.icon:active {
+  box-shadow: 9px 7px 28px 1px rgba(170, 163, 163, 0.75);
+  transform: translateY(4px);
+}
+
+@media only screen and (max-width: 1440px) {
+  .hero-img img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header > img {
+    width: 86px;
+    height: 29px;
+    /* UI Properties */
+    background: transparent 0% 0% no-repeat padding-box;
+  }
+
+  .main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .social {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-text h1 {
+    line-height: 1.5;
+    font-size: 26px;
+  }
+}
