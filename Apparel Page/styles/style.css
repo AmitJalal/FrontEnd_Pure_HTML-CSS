@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Prompt:wght@300;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 4rem 11rem;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    box-sizing: border-box;
+    width: calc(100vw - 22rem);
+    height: calc(100vh - 8rem);
+    /* justify-content: space-evenly; */
+}
+
+#left {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    background: transparent linear-gradient(136deg, #FCF3F3 0%, #FFFFFF 49%, #FAF1F0 100%) 0% 0% no-repeat padding-box;
+    width: 50vw;
+}
+
+.container {}
+
+
+nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+nav>.circle {
+    width: 39px;
+    height: 39px;
+    /* UI Properties */
+    border: 2px solid #E7A09E;
+    border-radius: 50%;
+}
+
+nav h4 {}
+
+
+nav h4:nth-child(1) {
+    width: 64px;
+    height: 27px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal medium 20px/28px Prompt;
+    letter-spacing: 6px;
+    color: #807b7b;
+}
+
+nav h4:nth-child(2) {
+    width: 114px;
+    height: 27px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal medium 20px/28px Prompt;
+    letter-spacing: 6px;
+    color: #807b7b;
+}
+
+article>h1:nth-child(1) {
+    width: 248px;
+    height: 85px;
+    /* UI Properties */
+    
+    font: normal normal 300 64px/90px Prompt;
+    letter-spacing: 19.2px;
+    color: #D2A1A2;
+}
+
+article>h1:nth-child(2) {
+    width: 348px;
+    height: 85px;
+    /* UI Properties */
+    font: normal normal 300 64px/90px Prompt;
+    letter-spacing: 19.2px;
+    color: #393334;
+}
+
+article>h1:nth-child(3) {
+    width: 236px;
+    height: 85px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal 300 64px/90px Prompt;
+    letter-spacing: 19.2px;
+    color: #393334;
+}
+
+#right {
+    width: 30vw;
+    display: flex;
+    justify-content: end;
+    justify-self: end;
+}
+
+#right>img {
+    /* width: 100%; */
+    /* object-fit: fill; */
+}
