@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Forms</title>
+  </head>
+  <body class="ab-center">
+    <div class="form__wrapper ab-center">
+      <button class="go-pro ab-center pad b-rad bx-shadow">
+        Get Membership
+      </button>
+      <!--  ======= payment form ======= -->
+      <div class="payment__form b-rad bx-shadow">
+        <div class="payment__form--title pad">
+          <h1 class="bold">Payment</h1>
+          <p class="light">Complete your pro membership</p>
+        </div>
+
+        <div class="payment__form--features bg-grey pad">
+          <div class="payment__form--features-heading">
+            <h1 class="medium">
+              <span class="light">$</span>899<span class="light">USD</span>
+            </h1>
+          </div>
+          <div class="line"></div>
+
+          <div class="payment__form--features-offers">
+            <div class="offers">
+              <span>
+                <img src="./assets/green-check.svg" alt="offers" />
+                <label for="messaging" class="medium">Messaging</label>
+              </span>
+
+              <span>
+                <img src="./assets/green-check.svg" alt="offers" />
+                <label for="analytics" class="medium">Analytics</label>
+              </span>
+            </div>
+            <div class="offers">
+              <span>
+                <img src="./assets/green-check.svg" alt="offers" />
+                <label for="support" class="medium">Support</label>
+              </span>
+
+              <span>
+                <img src="./assets/green-check.svg" alt="offers" />
+                <label for="vehicle2" class="medium">Discounts</label>
+              </span>
+            </div>
+          </div>
+
+          <h4 class="hover medium">Know More</h4>
+        </div>
+
+        <div class="payment__card-details pad">
+          <label for="ccn" class="bold">Pay With Card</label>
+          <input
+            id="ccn"
+            type="tel"
+            inputmode="numeric"
+            pattern="[0-9\s]{13,19}"
+            autocomplete="cc-number"
+            maxlength="19"
+            placeholder="XXXX - XXXX - XXXX"
+          />
+          <div class="input-box ab-center">
+            <input type="text" placeholder="mm / yy" />
+            <input type="text" placeholder="CVV" />
+          </div>
+        </div>
+
+        <div class="ab-center">
+          <button class="ab-center b-rad bx-shadow bold">Make Payment</button>
+        </div>
+      </div>
+
+      <!--======== remove ========-->
+      <div class="form__remove ab-center b-rad bx-shadow">
+        <h2 class="bold">Remove?</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui non
+          maiores vero eius voluptatum mollitia neque ipsum quaerat distinctio.
+          Error, nam quidem libero vel voluptatibus quaerat dolorum fugit cum!
+          Tempora.
+        </p>
+
+        <button class="form__remove-confirm b-rad ab-center bx-shadow">
+          Confirm
+        </button>
+        <h4 class="back hover bold">Take me back</h4>
+      </div>
+
+      <!-- payment success -->
+      <div class="payment__success ab-center b-rad bx-shadow">
+        <img src="./assets/check.svg" alt="success" />
+
+        <h2>Success</h2>
+        <h4>Your payment was processed</h4>
+
+        <button class="payment-details b-rad bx-shadow bold">
+          Payment Detials
+        </button>
+      </div>
+
+      <!--========= invoice ========= -->
+      <div class="payment__invoice b-rad bx-shadow">
+        <div class="payment__invoice-title sp-between pad">
+          <h1 class="bold">Invoice</h1>
+          <h3 class="bold">Download</h3>
+        </div>
+
+        <div class="payment__invoice-price bg-grey pad">
+          <div class="payment__invoice-membership sp-between bg-grey">
+            <h3 class="light">Pro mambership</h3>
+            <h2 class="bold">$899</h2>
+          </div>
+
+          <div class="line"></div>
+
+          <div class="payment__invoice-fee sp-between bg-grey">
+            <h3 class="light">Platform fee</h3>
+            <h2 class="bold">$10</h2>
+          </div>
+        </div>
+
+        <div class="payment__invoice-total sp-between pad">
+          <h3 class="bold">Total Amount</h3>
+          <h2 class="bold">$909</h2>
+        </div>
+
+        <div class="ab-center">
+          <button class="close-btn ab-center b-rad bold">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./form.js"></script>
+  </body>
+</html>
