@@ -3,7 +3,8 @@ Some FrontEnds parts I did, I tried making them responsive as much as possible !
 
 ## Front-End Links 
 
-### Fully Responsive Products Component
+### Products Component
+##### Fully Responsive without media query and less code
 https://amit-products-ui-fully-responsive.netlify.app/
 
 ### Forms Prototypes
