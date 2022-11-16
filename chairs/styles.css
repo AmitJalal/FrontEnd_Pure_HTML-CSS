@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  color: gray;
+}
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product__container {
+  width: 90%;
+  background-color: whitesmoke;
+  border-radius: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.75em;
+  padding: 1.75em;
+}
+
+.card {
+  width: 15em;
+  height: 18em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.5em;
+  gap: 0.75em;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* card image  */
+
+.card__image {
+  margin-top: 0.875em;
+  width: 90%;
+  height: 75%;
+  object-fit: cover;
+  border-radius: 0.5em;
+  background-position: left;
+}
+
+.card__image:nth-child(1) {
+  background-image: url("./assets/pinkish-brown-chair.jpg");
+}
+.card:nth-child(2) .card__image {
+  background-image: url("./assets/green-chair.jpg");
+}
+.card:nth-child(3) .card__image {
+  background-image: url("./assets/yellow-chair.jpg");
+}
+.card:nth-child(4) .card__image {
+  background-image: url("./assets/rectangle-chair.jpg");
+}
+.card:nth-child(5) .card__image {
+  background-image: url("./assets/flower-chair.jpg");
+}
+.card:nth-child(6) .card__image {
+  background-image: url("./assets/dark-green-chair.jpg");
+}
+.card:nth-child(7) .card__image {
+  background-image: url("./assets/king-chair.jpg");
+}
+.card:nth-child(8) .card__image {
+  background-image: url("./assets/black-chair.jpg");
+}
+
+/* hover state */
+
+.card:hover {
+  cursor: pointer;
+  transition: transform 0.5s;
+  transform: rotate(-5deg);
+}
+
+.card:nth-child(1):hover {
+  background-color: rgb(178, 123, 117, 0.2);
+}
+.card:nth-child(2):hover {
+  background-color: rgb(126, 156, 148, 0.3);
+}
+.card:nth-child(3):hover {
+  background-color: rgb(234, 188, 51, 0.2);
+}
+.card:nth-child(4):hover {
+  background-color: rgb(243, 197, 158, 0.3);
+}
+.card:nth-child(5):hover {
+  background-color: rgb(194, 94, 34, 0.3);
+}
+.card:nth-child(6):hover {
+  background-color: rgb(4, 93, 94, 0.2);
+}
+.card:nth-child(7):hover {
+  background-color: rgb(117, 98, 117, 0.2);
+}
+.card:nth-child(8):hover {
+  background-color: rgb(71, 79, 92, 0.2);
+}

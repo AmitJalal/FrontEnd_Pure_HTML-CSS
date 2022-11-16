@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+
+:root {
+  --bg: white;
+  --bg-grey: rgb(232, 234, 238);
+  --blue: rgb(0, 102, 255);
+  --check-green: rgb(65, 156, 130);
+  --success-green: rgb(57, 141, 116);
+  --remove-red: rgb(190, 68, 68);
+  --form-grey: rgb(246, 246, 248);
+  --line-grey: rgb(184, 187, 191);
+
+  /* Fonts */
+  --font: "Nunito", sans-serif;
+  --white: white;
+
+  /* hover */
+  --hover-brightness: 1.2;
+}
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+  font-weight: 300;
+}
+
+body {
+  background-color: var(--bg);
+  width: 100vw;
+  min-height: 100vh;
+}
+
+li {
+  list-style: none;
+}
+
+/*=========== utility css =========*/
+.light {
+  font-weight: 400;
+  color: grey;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.medium {
+  font-weight: 700;
+}
+
+.ab-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sp-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.b-rad {
+  border-radius: 1.375em;
+}
+
+.bx-shadow {
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.bg-grey {
+  background-color: var(--form-grey);
+}
+
+.pad {
+  padding: 1.25em 2.27em;
+}
+
+.line {
+  width: calc(100%);
+  height: 0.25em;
+  background: var(--line-grey);
+  margin: auto;
+}
+
+.hover:hover {
+  cursor: pointer;
+  filter: brightness(var(--hover-brightness));
+}
+
+.hover:active {
+  color: rgb(169, 165, 165);
+  transform: translateY(0.25em);
+}
+
+button {
+  border: none;
+  color: var(--white);
+  font-weight: 600;
+  font-size: 1.25em;
+}
+
+button:hover {
+  cursor: pointer;
+  filter: brightness(var(--hover-brightness));
+}
+
+button:active {
+  filter: brightness(85%);
+  transform: translateY(0.25em);
+}
+
+input:focus {
+  background-color: var(--form-grey);
+}
+
+input::placeholder {
+  color: rgb(169, 165, 165);
+  font-size: 1.5em;
+  text-align: center;
+}
+/*==========  main css =========*/
+
+.go-pro {
+  width: 16em;
+  background-color: var(--success-green);
+}
+
+.form__wrapper {
+  width: 90vw;
+  height: 90vh;
+  background-color: var(--bg-grey);
+  border-radius: 2.5em;
+}
+
+/* ============= payment-form ============== */
+
+.payment__form {
+  display: none;
+  /* display: flex; */
+  justify-content: center;
+
+  min-width: 25em;
+  height: 80vh;
+  flex-direction: column;
+  background-color: var(--white);
+}
+
+.payment__form > div > button {
+  width: calc(100% - 4.54em);
+  height: 2.75em;
+  font-size: 1em;
+  color: var(--white);
+  background-color: var(--blue);
+  border: none;
+}
+
+.payment__form--features {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75em;
+}
+
+.payment__form--features-offers .offers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment__form--features-offers .offers > span {
+  display: flex;
+  gap: 0.5em;
+}
+.payment__form--features-offers .offers > span > img {
+  width: 1em;
+}
+
+.payment__card-details {
+  display: flex;
+  flex-direction: column;
+}
+.payment__card-details input {
+  height: 3.125em;
+  border: 0.25em solid rgb(224, 223, 223);
+  border-radius: 0.625em;
+  outline: none;
+}
+.payment__card-details .input-box {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.payment__card-details .input-box > input {
+  width: 47%;
+  margin-top: 1em;
+}
+
+/*=========== payment ===========*/
+.payment__success {
+  display: none;
+  width: 30%;
+  height: 55%;
+  color: var(--white);
+  background-color: var(--success-green);
+
+  flex-direction: column;
+  gap: 0.75em;
+}
+
+.payment__success > h2 {
+  margin-top: 1.25em;
+  font-weight: 1000;
+}
+.payment__success > h4 {
+  font-weight: 200;
+  color: var(--form-grey);
+}
+
+.payment__success > img {
+  width: 7.25em;
+}
+
+.payment__success > button {
+  width: 12.5em;
+  height: 2.75em;
+  background-color: rgb(80, 183, 72);
+  border: none;
+  color: var(--white);
+}
+
+/*============ form remove ==============*/
+
+.form__remove {
+  display: none;
+  min-width: 25vw;
+  min-height: 60%;
+
+  gap: 0.75em;
+  flex-direction: column;
+  background-color: var(--white);
+  padding: 0.75em;
+}
+
+.form__remove > p {
+  text-align: center;
+  width: 12.5em;
+}
+.form__remove-confirm {
+  width: 12.5em;
+  height: 2.5em;
+
+  background-color: var(--remove-red);
+  color: var(--white);
+  border: none;
+}
+
+/* ============= payment invoice =============== */
+
+.payment__invoice {
+  display: none;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  min-width: 25em;
+  min-height: 60%;
+  background-color: var(--white);
+}
+
+.payment__invoice-price > .line {
+  margin: 2.27em 0;
+}
+
+.payment__invoice > div > button {
+  width: calc(100% - 4.54em);
+  height: 2.5em;
+  font-size: 1em;
+  margin-bottom: 1em;
+  color: var(--white);
+  background-color: var(--remove-red);
+  border: none;
+}
