@@ -4,6 +4,9 @@ Some FrontEnds parts I did, I tried making them responsive as much as possible !
 ## Front-End Links 
 
 
+### Forms Prototypes
+https://forms-prototype-amit.netlify.app/
+
 ### Fitness Page
 
 https://fitness-page-amit.netlify.app/
