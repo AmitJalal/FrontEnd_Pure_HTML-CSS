@@ -7,8 +7,7 @@ Some FrontEnds parts I did, I tried making them responsive as much as possible !
 ##### Fully Responsive without media query and less code
 https://amit-products-ui-fully-responsive.netlify.app/
 
-### Forms Prototypes (Not responsive for small screen)
-##### will fix it soon....
+### Forms Prototypes (responsive)
 https://forms-prototype-amit.netlify.app/
 
 ### Fitness Page
