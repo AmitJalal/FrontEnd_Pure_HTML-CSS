@@ -18,6 +18,8 @@ https://forms-prototype-amit.netlify.app/
 ### Fitness Page
 ![image](https://user-images.githubusercontent.com/96337905/203101828-612fff0d-4bb6-435e-81c4-50e5d691d7fa.png)
 
+<br/> <br/>
+
 ![fitness](https://user-images.githubusercontent.com/96337905/203101627-f96d9aa1-5442-4f8c-a3ec-24935f2b3c45.png)
 
 
