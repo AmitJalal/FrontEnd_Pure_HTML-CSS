@@ -16,6 +16,8 @@ https://amit-products-ui-fully-responsive.netlify.app/
 https://forms-prototype-amit.netlify.app/
 
 ### Fitness Page
+![fitness](https://user-images.githubusercontent.com/96337905/203101627-f96d9aa1-5442-4f8c-a3ec-24935f2b3c45.png)
+
 
 https://fitness-page-amit.netlify.app/
 
