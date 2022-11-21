@@ -3,20 +3,20 @@ Some FrontEnds parts I did, I tried making them responsive as much as possible !
 
 ## Front-End Links 
 
-## Products Component  <span>https://amit-products-ui-fully-responsive.netlify.app/ </span>
+## Products Component  #### <span>https://amit-products-ui-fully-responsive.netlify.app/ </span>
 ![image](https://user-images.githubusercontent.com/96337905/203099949-ee413f70-443b-4d10-8e5a-fe0117eb41ff.png)
 </br> </br>
 ### For Medium Screen </br> </br>
 ![products](https://user-images.githubusercontent.com/96337905/203100602-cf10bb8c-1d45-46d5-ab5c-a2f6ea994cd9.png)
 
 
-##### Fully Responsive without media query and less code
-
 
 ## Forms Prototypes (responsive) </br> </br>
 ![image](https://user-images.githubusercontent.com/96337905/203101246-b0811b58-f5e1-42d6-8cb1-87e3d31ed096.png)
 
 https://forms-prototype-amit.netlify.app/
+
+
 
 ## Fitness Page </br> </br>
 ![image](https://user-images.githubusercontent.com/96337905/203101828-612fff0d-4bb6-435e-81c4-50e5d691d7fa.png)
@@ -29,6 +29,7 @@ https://forms-prototype-amit.netlify.app/
 https://fitness-page-amit.netlify.app/
 
 
+
 ## Card Page </br> </br>
 ![image](https://user-images.githubusercontent.com/96337905/203102273-c2cbf9a1-31e2-4a8c-b688-a3f04139a2ac.png)
 </br> </br>
@@ -36,6 +37,8 @@ https://fitness-page-amit.netlify.app/
 ![cards](https://user-images.githubusercontent.com/96337905/203102501-ece07065-eac4-43ac-b56d-c526ce5b1a50.png)
 
 https://cards-amit09.netlify.app/
+
+
 
 ## Riddle Page </br> </br>
 ![image](https://user-images.githubusercontent.com/96337905/203102598-b9b11633-27ff-40e1-b9b6-d743fce9a04f.png)</br> </br>
@@ -45,9 +48,12 @@ https://cards-amit09.netlify.app/
 
 https://riddle-page-amit.netlify.app/
 
+
+
 ## Price Card </br> </br>
 ![image](https://user-images.githubusercontent.com/96337905/203102989-7fae625b-ef67-4890-bc0f-49b29543e659.png)
 </br> </br>
+
 
 ## For Small Screeen
 ![price-cards](https://user-images.githubusercontent.com/96337905/203103164-5749ae22-5e5e-4efd-8dee-7ff7dfe898aa.png) </br> </br>
