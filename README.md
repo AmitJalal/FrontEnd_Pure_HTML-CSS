@@ -39,6 +39,8 @@ https://cards-amit09.netlify.app/
 https://riddle-page-amit.netlify.app/
 
 ### Price Card
+![image](https://user-images.githubusercontent.com/96337905/203102989-7fae625b-ef67-4890-bc0f-49b29543e659.png)
+![price-cards](https://user-images.githubusercontent.com/96337905/203103164-5749ae22-5e5e-4efd-8dee-7ff7dfe898aa.png)
 
 https://price-card-amit.netlify.app/
 
