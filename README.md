@@ -19,9 +19,9 @@ https://forms-prototype-amit.netlify.app/
 
 
 
-## Fitness Page </br> </br>
+## Fitness Page 
 
-https://fitness-page-amit.netlify.app/
+https://fitness-page-amit.netlify.app/   </br> </br>
 ![image](https://user-images.githubusercontent.com/96337905/203101828-612fff0d-4bb6-435e-81c4-50e5d691d7fa.png)
 
 </br> </br>
