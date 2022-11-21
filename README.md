@@ -27,10 +27,14 @@ https://fitness-page-amit.netlify.app/
 
 
 ### Card Page 
+![image](https://user-images.githubusercontent.com/96337905/203102273-c2cbf9a1-31e2-4a8c-b688-a3f04139a2ac.png)
+![cards](https://user-images.githubusercontent.com/96337905/203102501-ece07065-eac4-43ac-b56d-c526ce5b1a50.png)
 
 https://cards-amit09.netlify.app/
 
 ### Riddle Page 
+![image](https://user-images.githubusercontent.com/96337905/203102598-b9b11633-27ff-40e1-b9b6-d743fce9a04f.png)
+![riddle](https://user-images.githubusercontent.com/96337905/203102726-0e77c3e9-4c4e-4cad-9f52-f35ee7684f4b.png)
 
 https://riddle-page-amit.netlify.app/
 
