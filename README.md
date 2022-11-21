@@ -11,6 +11,8 @@ Some FrontEnds parts I did, I tried making them responsive as much as possible !
 https://amit-products-ui-fully-responsive.netlify.app/
 
 ### Forms Prototypes (responsive)
+![image](https://user-images.githubusercontent.com/96337905/203101246-b0811b58-f5e1-42d6-8cb1-87e3d31ed096.png)
+
 https://forms-prototype-amit.netlify.app/
 
 ### Fitness Page
