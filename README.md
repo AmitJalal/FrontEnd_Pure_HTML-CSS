@@ -3,7 +3,8 @@ Some FrontEnds parts I did, I tried making them responsive as much as possible !
 
 ## Front-End Links 
 
-## Products Component  #### <span>https://amit-products-ui-fully-responsive.netlify.app/ </span>
+## Products Component  
+<span>https://amit-products-ui-fully-responsive.netlify.app/ </span>
 ![image](https://user-images.githubusercontent.com/96337905/203099949-ee413f70-443b-4d10-8e5a-fe0117eb41ff.png)
 </br> </br>
 ### For Medium Screen </br> </br>
