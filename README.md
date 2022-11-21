@@ -4,7 +4,8 @@ Some FrontEnds parts I did, I tried making them responsive as much as possible !
 ## Front-End Links 
 
 ### Products Component
-![image](https://user-images.githubusercontent.com/96337905/203099949-ee413f70-443b-4d10-8e5a-fe0117eb41ff.png)
+![image](https://user-images.githubusercontent.com/96337905/203099949-ee413f70-443b-4d10-8e5a-fe0117eb41ff.png)  ![products](https://user-images.githubusercontent.com/96337905/203100602-cf10bb8c-1d45-46d5-ab5c-a2f6ea994cd9.png)
+
 
 ##### Fully Responsive without media query and less code
 https://amit-products-ui-fully-responsive.netlify.app/
