@@ -3,6 +3,11 @@ Some FrontEnds parts I did, I tried making them responsive as much as possible !
 
 ## Front-End Links 
 
+## TailwindCSS responsive layout mobile first approach
+### Code - https://github.com/AmitJalal/TailwindCSS_Responsive_Layouts
+
+</br> </br>
+
 ## Products Component  
 https://amit-products-ui-fully-responsive.netlify.app/ 
 ![image](https://user-images.githubusercontent.com/96337905/203099949-ee413f70-443b-4d10-8e5a-fe0117eb41ff.png)
