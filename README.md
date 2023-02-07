@@ -4,7 +4,24 @@ Some FrontEnds parts I did, I tried making them responsive as much as possible !
 ## Front-End Links 
 
 ## TailwindCSS responsive layout mobile first approach
+https://tailwind-nested-grid-and-flex-layout.netlify.app/
 ### Code - https://github.com/AmitJalal/TailwindCSS_Responsive_Layouts
+</br> </br>
+### Xl-screen 
+</br>
+![xl-screen](https://user-images.githubusercontent.com/96337905/217158971-e5ecb31e-6a0e-466c-b12e-0cc996174251.png)
+</br>
+### lg-screen
+</br>
+![lg-screen](https://user-images.githubusercontent.com/96337905/217159161-f0798e12-ad97-46bf-a118-fd8a35109cf9.png)
+</br>
+### md-screen
+</br>
+![md-screen](https://user-images.githubusercontent.com/96337905/217159283-aa26e5e8-35b9-478b-9e1f-1b851c691e4c.png)
+</br>
+### sm-screen
+</br>
+![mob-view](https://user-images.githubusercontent.com/96337905/217159385-889ae6a3-1b64-4ff5-b812-e17d9a00faa1.png)
 
 </br> </br>
 
