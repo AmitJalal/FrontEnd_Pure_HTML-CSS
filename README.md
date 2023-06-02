@@ -1,6 +1,12 @@
 # FrontEnd_Pure_HTML-CSS
 Some FrontEnds parts I did, I tried making them responsive as much as possible !! 🙃🎉
 - [TailwindCSS responsive layout mobile first approach](#tailwindCSS-responsive-layout-mobile-first-approach)
+- [Products Component](#products-component)
+- [Forms Prototypes](#forms-prototypes-(responsive))
+- [Fitness Page](#fitness-page)
+- [Card Page](#card-page)
+- [Riddle Page](#riddle-page)
+- [Price Card](#price-card)
 ## Front-End Links 
 
 ## TailwindCSS responsive layout mobile first approach
