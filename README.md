@@ -2,12 +2,19 @@
 Some FrontEnds parts I did, I tried making them responsive as much as possible !! 🙃🎉
 - [TailwindCSS responsive layout mobile first approach](#tailwindCSS-responsive-layout-mobile-first-approach)
 - [Products Component](#products-component)
-- [Forms Prototypes](#forms-prototypes-(responsive))
+- [Forms Prototypes](#forms-prototypes)
 - [Fitness Page](#fitness-page)
 - [Card Page](#card-page)
 - [Riddle Page](#riddle-page)
 - [Price Card](#price-card)
-## Front-End Links 
+## Front-End Links (demo)
+- [TailwindCSS responsive layout mobile first approach](https://tailwind-nested-grid-and-flex-layout.netlify.app/)
+- [Products Component](https://amit-products-ui-fully-responsive.netlify.app/)
+- [Forms Prototypes](https://forms-prototype-amit.netlify.app/)
+- [Fitness Page](https://fitness-page-amit.netlify.app/)
+- [Card Page](https://cards-amit09.netlify.app/)
+- [Riddle Page](https://riddle-page-amit.netlify.app/)
+- [Price Card](https://price-card-amit.netlify.app/)
 
 ## TailwindCSS responsive layout mobile first approach
 https://tailwind-nested-grid-and-flex-layout.netlify.app/
@@ -40,7 +47,7 @@ https://amit-products-ui-fully-responsive.netlify.app/
 
 
 
-## Forms Prototypes (responsive)
+## Forms Prototypes
 https://forms-prototype-amit.netlify.app/  </br> </br>
 ![image](https://user-images.githubusercontent.com/96337905/203101246-b0811b58-f5e1-42d6-8cb1-87e3d31ed096.png)
 
